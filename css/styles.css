@@ -1,0 +1,184 @@
+body {
+    font-family: 'Montserrat',
+        sans-serif;
+    background: #EFF5FF;
+}
+
+.name-subtitle {
+
+    color: #262630;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+
+}
+
+.about-me-container {
+    width: 274px;
+
+}
+
+.logo {
+    margin-bottom: 60px;
+}
+
+.frame {
+    border-radius: 50%;
+}
+
+.about-me-list {
+    padding-left: 14px;
+}
+
+.about-me-list-item {
+    color: #262630;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 16px;
+
+}
+
+.game-title {
+    color: #262630;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+
+.main-container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 44px;
+    box-sizing: border-box;
+}
+
+.game-container {
+    width: 440px;
+}
+
+.instructions-container {
+    width: 274px;
+}
+
+.game-area {
+    background: #D5E3FF;
+    width: 440px;
+    height: 440px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.game-canvas {
+    border: 1px solid #9EADF2;
+    background: #FFF;
+}
+
+.game-skore {
+    color: #262630;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.game-start {
+    border-radius: 8px;
+    background: #FF6B0A;
+    padding: 12px 24px;
+    box-sizing: border-box;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-right: 28px;
+    cursor: pointer;
+}
+
+.game-reset {
+    border-radius: 8px;
+    border: 1px solid #FF6B0A;
+    color: #FF6B0A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 12px 24px;
+    cursor: pointer;
+    box-sizing: border-box;
+    background: #EFF5FF;
+}
+
+.game-controls {
+    display: flex;
+    justify-content: center;
+
+}
+
+.instructions-title {
+    color: #262630;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 32px;
+    margin-top: 90px;
+}
+
+.instruction-list {
+    padding-left: 16px;
+}
+
+.instruction-list-item {
+    color: #262630;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #EFF5FF;
+}
+
+.name-subtitle {
+    color: #262630;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+/* ... */
+
+.game-area {
+    background: #D5E3FF;
+    width: 440px;
+    height: 440px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.game-canvas {
+    border: 1px solid #9EADF2;
+    background: #FFF;
+}
+
+/* Забезпечення приховування зображення їжі */
+.food-image {
+    display: none;
+}

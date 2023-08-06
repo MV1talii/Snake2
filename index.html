@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="about-me-container">
+        <img class="logo" src="image/logo.png" alt="GOIT logo" />
+        <img class="frame" src="image/frame1.jpg" alt="pfoto" width="274" />
+        <h2 class="name-subtitle">
+          Created by Vitaly Muravskyi, participant of the marathon "Web
+          developer of the future"
+        </h2>
+        <ul class="about-me-list">
+          <li class="about-me-list-item">
+            <p>Front-End Developer</p>
+          </li>
+          <li class="about-me-list-item">
+            <p>Created this page with help ChatGPT</p>
+          </li>
+          <li>Has every chance to become a developer of the future</li>
+        </ul>
+      </div>
+      <div class="game-container">
+        <h1 class="game-title">"Snake" game</h1>
+        <div class="game-area">
+          <canvas class="game-canvas" width="400" height="400"></canvas>
+          <img
+            class="food-image"
+            src="image/cherry.png"
+            alt="Food"
+            width="20"
+            height="20"
+          />
+        </div>
+        <div class="game-skore">Очки: 0</div>
+        <div class="game-controls">
+          <button class="game-start">Start</button>
+          <button class="game-reset">Restart</button>
+        </div>
+      </div>
+      <div class="instructions-container">
+        <h3 class="instructions-title">Instructions</h3>
+        <ul class="instruction-list">
+          <li class="instruction-list-item">
+            <p>
+              Objective: The objective of the game is to control a snake on the
+              screen and help it eat as much food as possible. As the snake
+              consumes food, it grows longer, and the player's score increases.
+            </p>
+          </li>
+          <li class="instruction-list-item">
+            <p>
+              Controls: Use the arrow keys on your keyboard (up, down, left,
+              right)to control the direction of the snake's movement. Be
+              cautious and avoid running into the walls or the snake's body, as
+              doing so will end the game.
+            </p>
+          </li>
+          <li class="instruction-list-item">
+            <p>
+              Scoring: Your score increases with each food item the snake eats.
+              Generally, the more food the snake consumes, the higher the score.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="js/game.js"></script>
+  </body>
+</html>
